@@ -26,7 +26,7 @@ The columns of our dataset are as follows:
 - ActivityLabel: takes on values WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING which identify 
 precisely what activity was being performed by the subject during the observational window.
 
-The remaining columns are to be interpreted by understanding each component of the column name. Each of them contain the mean of the described underlying observation
+The remaining columns are to be interpreted by understanding each component of the column name. Each of them contain the mean of the described underlying observation. The values are normailzed in the [-1,1] range.
 
 *time  - represents time domain signals that were captured at a constant rate of 50 Hz and then passed through various filters.
 *frequency - represents frequency domain signals that were produced by applying  a Fast Fourier Transform (FFT) to some of the previous signals.
