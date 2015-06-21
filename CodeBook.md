@@ -23,7 +23,7 @@ The columns of our dataset are as follows:
 
 - Subject: an anonymous numeric identifier for the subject being observed during the observational window.
 
-- Activity: takes on values WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING which identify 
+- ActivityLabel: takes on values WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING which identify 
 precisely what activity was being performed by the subject during the observational window.
 
 The remaining columns are to be interpreted by understanding each component of the column name. Each of them contain the mean of the described underlying observation
