@@ -31,15 +31,22 @@ The remaining columns are to be interpreted by understanding each component of t
 *time  - represents time domain signals that were captured at a constant rate of 50 Hz and then passed through various filters.
 *frequency - represents frequency domain signals that were produced by applying  a Fast Fourier Transform (FFT) to some of the previous signals.
 *BodyAccelerometer - refers to the body motion component of the each accelerometer reading
+
 *GravityAccelerometer - refers to the gravitational component of each accelerometer reading
+
 *BodyGyroscope - refers to the angular velocity of the subject measured by the gyroscope
+
 *BodyGyroscopeJerk - refers to first derivative calculation made of the BodyAcc reading
+
 *BodyGyroscopeJerk - refers to the first derivative calculation made of the BodyGyro reading
 perpendicular direction.
 *Magnitude - refers to a magnitude calculation (if (a,b,c) represents simultaneous a (X,Y,Z)-axis readings then Magnitude represents (SQRT(a^2+b^2+c^2))
+
 *mean - refers to the fact that the original statistic being manipulated is a mean statistic
+
 *std - refers to the fact that the original statistic being manipulated is a standard deviation statistic
-*X, Y, Z - refers to the 3-axial readings that the accelerometer and gyroscope provide - the X-axis along the bottom of the smartphone screen, the Y-axis along the side and the Z-axis emanating from the the screen in a 
+
+*X, Y, Z - refers to the 3-axial readings that the accelerometer and gyroscope provide - the X-axis along the bottom of the smartphone screen, the Y-axis along the side and the Z-axis emanating from the the screen
 
 - TimeBodyAccelerometer.mean.X
 - TimeBodyAccelerometer.mean.Y
